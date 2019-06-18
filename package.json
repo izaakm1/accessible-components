@@ -1,0 +1,19 @@
+{
+  "name": "accessible-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izaakmills/accessible-components.git"
+  },
+  "author": "Izaak Mills <IzaakMills07@gmail.com> (https://github.com/Izaakmills)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izaakmills/accessible-components/issues"
+  },
+  "homepage": "https://github.com/Izaakmills/accessible-components#readme"
+}
