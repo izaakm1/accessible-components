@@ -22,6 +22,7 @@ export default {
       sourcemap: true
     }
   ],
+  external: ['styled-components', 'common-tags'],
   plugins: [
     external(),
     postcss({
@@ -34,6 +35,10 @@ export default {
       plugins: [ 'external-helpers' ]
     }),
     resolve(),
-    commonjs()
+    commonjs({
+      namedExports: {
+        'node_modules/react-is/index.js': ['isElement', 'isValidElementType', 'ForwardRef']
+      }
+    })
   ]
 }

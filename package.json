@@ -57,5 +57,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "styled-components": "^4.3.2"
+  }
 }
